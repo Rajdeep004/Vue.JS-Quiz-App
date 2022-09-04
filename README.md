@@ -1,1 +1,2 @@
-This is my first Vue.js project that I learned recently
+Recently learned & developed my first Vue.js website
+
