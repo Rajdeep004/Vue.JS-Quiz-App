@@ -24,10 +24,11 @@
                         v-for="option,key in ques[idx]['options']" >
                         <input 
                             type = "radio"
-                           v-bind:id = "key"
                             class = "hidden" 
+                            v-bind:id = "key"
                             v-bind:value = "key"
-                            v-on:change = answered($event) 
+                            v-on:change = answered($event)
+                            v-model = "selectedAns"
                             :disabled = "selectedAns != ''"
                         /> 
                             {{ option }}
